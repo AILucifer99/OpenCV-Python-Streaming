@@ -10,7 +10,7 @@ camera = False
 if camera :
     video = cv2.VideoCapture(0)
 else :
-    video = cv2.VideoCapture("C:\\Users\\sneha\\Desktop\\Opencv-Socket-Programming\\Videos\\sample.mp4")
+    video = cv2.VideoCapture("../sample.mp4")
 
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
